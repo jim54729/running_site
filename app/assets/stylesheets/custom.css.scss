@@ -1,0 +1,17 @@
+@import "bootstrap";
+
+//navbar
+$navbar-inverse-bg: #CC6600;
+$navbar-inverse-border: #CC6600;
+$navbar-fixed-top: blue;
+
+// Inverse navbar
+
+.navbar-inverse .container {
+background-color: $navbar-inverse-bg;
+border-color: $navbar-inverse-border;
+}
+
+body {
+	border: solid;
+}
