@@ -1,8 +1,12 @@
 @import "bootstrap";
 
+html {
+	background-color: #cdd0d7;
+}
+
 //navbar
-$navbar-inverse-bg: #CC6600;
-$navbar-inverse-border: #CC6600;
+$navbar-inverse-bg: #7F00FF;
+$navbar-inverse-border: #7F00FF;
 $navbar-fixed-top: blue;
 
 // Inverse navbar
@@ -13,5 +17,27 @@ border-color: $navbar-inverse-border;
 }
 
 body {
-	border: solid;
+	//border: solid;
+	padding-top: 60px;
+	width: 66.9%;
+	margin: auto;
+}
+
+#logo {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
 }
